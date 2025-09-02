@@ -1,0 +1,14 @@
+@use "../../../GlobalStyle/mainScss.scss" as *;
+
+.ourTeamHead {
+  @include bgConfig(100%, null); //width, height=null, repeat, position, size
+  color: $neutral-light;
+  text-align: center;
+  .ourTeamTitle {
+    padding: 200px 0;
+  }
+  .ourTeamTitle {
+    background-color: $shade-light-bg;
+    @include fontSettings($font-size-xxl, $font-bold, $neutral-light, true); //size, font-family, color, copy
+  }
+}

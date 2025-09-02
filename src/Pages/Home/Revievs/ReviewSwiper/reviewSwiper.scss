@@ -1,0 +1,25 @@
+@use "../../../../GlobalStyle/mainScss.scss" as *;
+
+.swiper {
+  max-width: 1440px;
+  border-radius: 20px;
+}
+
+.mySwiper {
+  display: none;
+
+  margin-top: 24px;
+  .swiper-slide {
+    width: 416px;
+    text-align: center;
+    font-size: $font-size-lg;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

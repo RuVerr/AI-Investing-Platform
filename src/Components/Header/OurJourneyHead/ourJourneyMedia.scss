@@ -1,0 +1,26 @@
+@use "../../../GlobalStyle/mainScss.scss" as *;
+
+@include media-max(phablet) {
+  .ourJourneyHead {
+    height: 500px;
+    .ourJourneyTitle {
+      padding: 234px 0;
+    }
+  }
+}
+
+@include media-max(phone) {
+  .ourJourneyHead {
+    position: relative;
+  }
+  .ourJourneyHead::after {
+    content: "";
+    display: block;
+    background-image: url("/icon/arrowsWhite.svg");
+    @include bgConfig(74px, 62px);
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

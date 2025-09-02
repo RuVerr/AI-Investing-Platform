@@ -1,0 +1,33 @@
+@use "../../GlobalStyle/mainScss.scss" as *;
+
+@use "./InvestPagesOne/investPagesOne.scss";
+@use "./InvestPagesTwo/investPagesTwo.scss";
+
+.investPagesOne,
+.investPagesTwo {
+  box-shadow: inset 0px 12px 20px -22px;
+  padding-top: 27px;
+  .fromButton {
+    --var-autoGap: clamp(3px, 4vw, 10px);
+    @include flex(null, null, null, wrap, var(--var-autoGap));
+    // default settings (flex) mutable arguments(justify-content, align-items, direction, flex-wrap=null, gap=null);
+    img {
+      width: 5px;
+    }
+    margin-bottom: 35px;
+    .investPagesOneFromButton,
+    .investPagesTwoFromButton,
+    .thisLocationButton,
+    .active {
+      @include button(null, transparent, $shade-dark, 14px, $font-regular, none);
+      // default settings (cursor: pointer;, transition: 0.1s ease-in; ) mutable arguments (border-radius, background-color, color, font-size, font-family, border)
+      &:hover {
+        @include hoverButton(null, $sky-bg);
+        // default settings (transition: 0.1s ease-out;) mutable arguments (background-color, color)
+      }
+    }
+    .active {
+      color: $sky;
+    }
+  }
+}
