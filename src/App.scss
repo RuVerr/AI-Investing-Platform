@@ -29,7 +29,7 @@ button {
 }
 
 .container {
+  --var-container-destination: clamp(5px, 6vw, 75px);
   max-width: 1330px;
-  margin: auto;
-  padding: 0 16px;
+  margin: 0 var(--var-container-destination);
 }

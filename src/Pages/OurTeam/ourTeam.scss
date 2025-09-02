@@ -1,7 +1,7 @@
 @use "../../GlobalStyle/mainScss.scss" as *;
 
 .ourTeam {
-  margin-top: $margin-lg-v2;
+  padding: $space-between-elements 0 $space-between-elements 0;
   .ourTeamContent {
     @include flex(null, null, column, null, 56px);
     // default settings (flex) mutable arguments(justify-content, align-items, direction, flex-wrap, gap);

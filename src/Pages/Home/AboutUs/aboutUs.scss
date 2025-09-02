@@ -1,6 +1,7 @@
 @use "../../../GlobalStyle/mainScss.scss" as *;
 
 .aboutUsHome {
+  padding: $space-between-elements 0 $space-between-elements 0;
   width: 100%;
   display: none;
   .aboutUsHomeContent {

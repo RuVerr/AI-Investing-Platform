@@ -2,7 +2,7 @@
 
 .invest {
   width: 100%;
-  margin-top: $margin-lg-v6 !important;
+  padding: $space-between-elements 0 $space-between-elements 0;
   @include flex(center, center, column, null, null);
   // default settings (flex) mutable arguments(justify-content, align-items, direction, flex-wrap=null, gap);
   &_withdraw {

@@ -17,7 +17,7 @@
 // base-review-style _______________________________________________
 
 .reviews {
-  margin-top: $space-between-elements;
+  padding: $space-between-elements 0 $space-between-elements 0;
   @extend %base-review-font; //size, font-family, color, copy
   .reviewsTitle {
     font-size: 22px;

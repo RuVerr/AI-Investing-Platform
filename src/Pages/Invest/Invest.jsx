@@ -16,21 +16,23 @@ const Invest = () => {
 
   return (
     <main className="mainContant">
-      <section className="invest container">
-        <div className="invest_withdraw">
-          <h2>
-            INVESTED TODAY
-            <span>15,000 $</span>
-          </h2>
-          <h2>
-            WITHDRAWAN TODAY
-            <span>35,800 $</span>
-          </h2>
-        </div>
-        <div className="invest_cards">
-          <RecomendationCard cardCount={8} />
-        </div>
-      </section>
+      <div className="container">
+        <section className="invest">
+          <div className="invest_withdraw">
+            <h2>
+              INVESTED TODAY
+              <span>15,000 $</span>
+            </h2>
+            <h2>
+              WITHDRAWAN TODAY
+              <span>35,800 $</span>
+            </h2>
+          </div>
+          <div className="invest_cards">
+            <RecomendationCard cardCount={8} />
+          </div>
+        </section>
+      </div>
     </main>
   );
 };

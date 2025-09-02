@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 
 import HomeHead from "../../Components/Header/HomeHead/Header.jsx";
@@ -13,8 +13,16 @@ import OurTeam from "../../Components/Header/OurTeamHead/OurTeamHead.jsx";
 import useIsAuthPage from "../../Hooks/useIsAuthPage.jsx";
 
 const Layout = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
   const isAuthPage = useIsAuthPage();
   const location = useLocation();
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 600);
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const headers = {
     "/": <HomeHead />,
@@ -30,7 +38,7 @@ const Layout = () => {
     <div>
       <NavigationMenu />
       {currentHeader}
-      {!isAuthPage ? <NavBar /> : isAuthPage}
+      {!isMobile && !isAuthPage ? <NavBar /> : isAuthPage && isMobile}
 
       <Outlet />
       <Footer />

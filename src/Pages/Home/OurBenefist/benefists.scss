@@ -2,7 +2,7 @@
 
 .benefist {
   row-gap: 48px;
-  margin-top: $space-between-elements;
+  padding: $space-between-elements 0 $space-between-elements 0;
   h2 {
     @include fontSettings($font-size-xl-v4, $font-medium, $shade-dark, true); //size, font-family, color, copy
   }
