@@ -7,7 +7,7 @@ import "./videoHeadMedia.scss";
 const VideoHead = () => {
   return (
     <header className="videoContent">
-      <video muted autoPlay loop width={"1440"}>
+      <video muted autoPlay loop playsInline width={"1440"}>
         <source src={headVideo} type="video/mp4" />
       </video>
     </header>
