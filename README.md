@@ -1,51 +1,77 @@
-English Version
+# 🌐 AI Investing Platform
 
-AI Investing Platform
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Formik](https://img.shields.io/badge/Formik-FFCA28?style=for-the-badge)
+![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge)
+![SCSS](https://img.shields.io/badge/SCSS-SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-A modern, interactive web platform themed around AI-driven investing. The project is inspired by leading investment websites and combines creative design with functional interactivity. This website is purely educational and was created for learning purposes.
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Mac](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 
-Features
-	•	User Interaction: Users can register, interact with the investment map, and add assets to their portfolio. All data is stored locally using localStorage.
-	•	Daily Earnings Simulation: Each asset generates a simulated daily return for an engaging experience.
-	•	Responsive Design: Fully functional on both desktop and mobile devices.
-	•	Dynamic Forms: Built with Formik for smooth and validated user input.
-	•	State Management: Redux Toolkit handles complex app states efficiently.
-	•	Interactive Carousels: Swiper is used for displaying assets and other visual elements.
+**📅 Project Started:** (your date)
 
-Technologies Used
-	•	React
-	•	Redux Toolkit
-	•	Formik
-	•	Swiper.js
-	•	SCSS / SASS
-	•	Responsive Web Design
-	•	localStorage
+---
 
-This platform showcases the ability to combine front-end technologies, interactivity, and responsive design into a cohesive user experience with a theme centered around AI investing.
+## 🚀 Project Overview
 
-⸻
+This is a **modern interactive web platform** themed around **AI-driven investing**, inspired by real investment platforms.  
+The project was built for **educational purposes** and focuses on combining **UI interactivity, state management, and dynamic user experience**.
 
-Русская версия
+Users can register, manage their portfolio, interact with assets, and simulate investment growth through a structured and interactive interface.
 
-Платформа AI Investing
+---
 
-Современная интерактивная веб-платформа с тематикой AI-инвестиций. Проект вдохновлен ведущими инвестиционными сайтами и сочетает креативный дизайн с функциональной интерактивностью. Этот сайт является учебным проектом и создан исключительно для обучения.
+## ✨ Key Features
 
-Особенности
-	•	Взаимодействие с пользователем: Пользователи могут регистрироваться, взаимодействовать с инвестиционной картой и добавлять активы в свой портфель. Все данные хранятся локально через localStorage.
-	•	Симуляция ежедневного дохода: Каждый актив приносит симулированный ежедневный доход для увлекательного опыта.
-	•	Адаптивный дизайн: Полностью функционален как на десктопе, так и на мобильных устройствах.
-	•	Динамические формы: Formik обеспечивает удобный и валидированный ввод данных пользователем.
-	•	Управление состоянием: Redux Toolkit эффективно обрабатывает сложные состояния приложения.
-	•	Интерактивные карусели: Swiper используется для отображения активов и других визуальных элементов.
+- **👤 User Interaction System**  
+  Users can register, interact with assets, and manage their portfolio.
 
-Используемые технологии
-	•	React
-	•	Redux Toolkit
-	•	Formik
-	•	Swiper.js
-	•	SCSS / SASS
-	•	Адаптивный веб-дизайн
-	•	localStorage
+- **💾 Local Storage Persistence**  
+  All user data is stored locally using `localStorage`.
 
-Платформа демонстрирует возможность объединять front-end технологии, интерактивность и адаптивный дизайн в единый удобный пользовательский опыт, с тематикой AI-инвестиций.
+- **📈 Daily Earnings Simulation**  
+  Each asset generates simulated daily returns for a dynamic experience.
+
+- **📱 Fully Responsive Design**  
+  Optimized for desktop, tablet, and mobile devices.
+
+- **🧾 Form Handling with Validation**  
+  Smooth and validated forms using **Formik**.
+
+- **🧠 Global State Management**  
+  Complex state handled efficiently with **Redux Toolkit**.
+
+- **🎠 Interactive Carousels**  
+  Asset displays and UI elements powered by **Swiper.js**.
+
+---
+
+## 🛠 Technologies Used
+
+| 🛠 Technology       | ✨ Purpose |
+|--------------------|-----------|
+| **React**          | UI development |
+| **Redux Toolkit**  | State management |
+| **Formik**         | Form handling & validation |
+| **Swiper.js**      | Interactive sliders |
+| **SCSS / SASS**    | Styling system |
+| **localStorage**   | Data persistence |
+
+---
+
+## 💡 Highlights
+
+- Built as a **learning-focused project** with real-world architecture patterns.  
+- Combines **state management, UI logic, and interactivity** in one system.  
+- Focus on **clean component structure and scalable React architecture**.  
+- Demonstrates ability to integrate multiple libraries into a cohesive product.  
+
+---
+
+## 🔗 Live Demo
+
+https://ruverr.github.io/AI-Investing-Platform/
